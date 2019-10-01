@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script src="https://d3js.org/d3.v4.js"></script>
+
+	</head>
+	<body >
+		<div class="reveal">
+			<div class="slides">
+	<section data-background="#A9D3FF">
+			<section  href="?transition=concave#/transitions">
+			<p><strong>About Revealjs</strong></p>
+			<br />
+			<ul>
+				<li class="fragment">Presentation Slides using......</li>
+				<li class="fragment">HTML Presentation Framework</li>
+				<li class="fragment fade-in-then-semi-out">Simply swipe through your slides on mobile devices</li>
+			</ul>
+			</section>
+			
+			<section>
+			<p><strong>About D3</strong></p>
+			<br />
+			<ul>
+				<li class="fragment">JavaScript library for manipulating documents based on data</li>
+				<li class="fragment">Bring data to life using HTML, SVG, and CSS</li>
+				<li class="fragment">Combining powerful visualization components and a data-driven approach to DOM manipulation</li>
+				
+			</ul>
+			</section>
+				
+				<section>
+				<p><strong>Comparison</strong></p>
+				<table>
+						<thead>
+							<tr>
+								<th><strong>Feature</strong></th>
+								<th>Reveal & D3</th>
+								<th>Powerpoint</th>
+								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><strong class="fragment">Transition</strong></td>
+								<td class="fragment">Present</td>
+								<td class="fragment">Present</td>
+							</tr>
+							<tr>
+								<td><strong class="fragment">Price</strong></td>
+								<td class="fragment">Free</td>
+								<td class="fragment">SG108.00/year</td>
+							</tr>
+							<tr>
+								<td><strong class="fragment">Webviewer</strong></td>
+								<td class="fragment">Strong</td>
+								<td class="fragment">Weak</td>
+							</tr>
+							
+							<tr>
+								<td><strong class="fragment">Interactive Charts</strong></td>
+								<td class="fragment">Present</td>
+								<td class="fragment">Absent</td>
+							</tr>
+						</tbody>
+					</table>
+				
+				</section>
+				
+				
+				<section><strong>Charts Examples</strong>
+				<p>Implemented with: Superstore Data</p>
+				</section>
+				<section data-background-iframe="https://171857y.github.io/line/" data-background-interactive>
+					
+					</section>
+					<!--Heat Map-->
+					<section>
+					<p>Treemap</p>
+					</section>	
+					
+					<section>
+					<p>Histogram</p>
+					</section>	
+					
+					<section>
+					<p>Drilldown</p>
+					</section>	
+					
+					<section>
+					<p><strong><u>Key Takeaways</u></strong></p>
+					<ul>
+						<li>Understand</li>
+					</ul>
+					</section>
+		
+		
+		<script src="js/reveal.js"></script>
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+			</section>
+	</body>
+</html>
