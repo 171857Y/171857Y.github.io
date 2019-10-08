@@ -29,7 +29,7 @@
 		<div class="reveal">
 			<div class="slides">
 	<section data-background="#A9D3FF">
-			<section  href="?transition=concave#/transitions">
+			<section>
 			<p><strong>About REVEAL.JS</strong></p>
 			<ul>
 				<li class="fragment">Presentation Slides using......</li>
@@ -88,6 +88,7 @@
 				</section>
 				
 				
+				
 				<section><strong>Charts Examples</strong>
 				<p>Implemented with: Superstore Data<br />
 					(Shipping Company)
@@ -107,7 +108,9 @@
 				<section data-background-iframe="https://171857y.github.io/hist/" data-background-interactive></section>	
 				<!-- Drilldown -->
 				<section data-background-iframe="https://171857y.github.io/drilldown/" data-background-interactive></section>	
-					
+				
+				<!-- Board -->
+				<section data-background-iframe="https://www.groupboard.com/demo/groupboard-designer-math-tutoring-online-whiteboard-demo.shtml"></section>
 				<section>
 					<p><strong><u>Key Takeaways</u></strong></p>
 					<p class="fragment">Reveal.js & D3 Charts are capable of: </p>
@@ -141,6 +144,29 @@
 					{ src: 'plugin/highlight/highlight.js', async: true }
 				]
 			});
+		</script>
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
 		</script>
 			</section>
 	</body>
